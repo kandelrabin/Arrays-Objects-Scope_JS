@@ -1,21 +1,25 @@
 // // GUESS 1 ///////////////////
-let guess = {
-  hair_colour: "red",
-  eye_colour: "blue",
-  hat: false,
-  glasses: true,
-  firstName: "Joseph",
-};
+// // Prediction: Guess who is Joseph
 
-const guessWho = function () {
-  return `Guess who is ${guess.firstName}`;
-};
+// let guess = {
+//   hair_colour: "red",
+//   eye_colour: "blue",
+//   hat: false,
+//   glasses: true,
+//   firstName: "Joseph",
+// };
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
-// // Prediction: 
+// const guessWho = function () {
+//   return `Guess who is ${guess.firstName}`;
+// };
+
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
+
 
 // // GUESS 2 ///////////////////
+// // Prediction: guess1: Guess Who is Liz.
+// // Prediction: guess2: Guess Who is Donna.
 
 // let firstName = "Donna";
 
@@ -31,7 +35,9 @@ console.log(finalAnswer);
 // const guess2 = `Guess Who is ${firstName}`;
 // console.log("guess2: ", guess2);
 
+
 // // GUESS 3 ///////////////////
+// // Prediction: Guess Who is Chris
 
 // const guess = {
 //   hair_colour: "black",
@@ -62,7 +68,9 @@ console.log(finalAnswer);
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
-// // GUESS 4 ///////////////////
+
+// GUESS 4 ///////////////////
+// Prediction: Guess Who is Gail
 
 // let firstName = "Gail";
 
@@ -77,7 +85,9 @@ console.log(finalAnswer);
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
-// // GUESS 5 ///////////////////
+
+// GUESS 5 ///////////////////
+// Prediction: Error because variable identifier cannot be reassigned
 
 // const guess = {
 //   hair_colour: "blonde",
